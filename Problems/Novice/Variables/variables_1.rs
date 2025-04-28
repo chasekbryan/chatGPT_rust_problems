@@ -1,6 +1,6 @@
 // variables_1.rs
 // Type: Variables
-// Difficulty: Novice (Level 1)
+// Difficulty: Novice
 //
 // Lesson:
 // In Rust, variables are immutable by default. To allow modification, you must opt into mutability with `mut`.

@@ -1,6 +1,6 @@
 // variables_1.rs
 // Type: Variables
-// Difficulty: Novice (Level 1)
+// Difficulty: Novice
 //
 // Lesson:
 // In Rust, variables are immutable by default. To allow modification, you must opt into mutability with `mut`.
@@ -20,11 +20,11 @@
 fn main() {
     // DONE: Declare an immutable variable x with value 10.
     let x = 10;
-    // DONE: Declare a mutable variable y with value 5.
-    let mut y = 5;  // this variable has a warning because it was never used
-    // DONE: Reassign y to value 15.
-    y = 15;
-    // DONE: Print x and y.
-    println!("x = {}, y = {}", x, y);
+    // TODO: Declare a mutable variable y with value 5.
+    let y = 5;
+    // TODO: Reassign y to value 15.
+    let y = 15;
+    // TODO: Print x and y.
+    println!("x: {x}\ny: {y}");
 }
 
