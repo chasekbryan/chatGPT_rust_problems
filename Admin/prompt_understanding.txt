@@ -1,0 +1,43 @@
+Project: chatGPT_rust_problems
+
+Overview
+This repository is a guided progressive set of Rust coding exercises organized by difficulty level and topic. The goal is to start with the fundamentals and build up to more advanced Rust concepts. Each exercise is delivered as a standalone Rust source file containing only the problem statement, a commented lesson, and helpful hints. No solutions are included in the problem file itself. Solutions are stored separately. Exercises increase incrementally in difficulty and reinforce concepts learned in previous problems.
+
+Directory Structure
+/Admin
+  prompt_understanding.txt this document
+
+/problems
+  novice
+    variables contains up to 20 problem files variables_X.rs
+    arithmetic contains up to 20 problem files arithmetic_X.rs
+    conditionals contains up to 20 problem files conditionals_X.rs
+    loops contains up to 20 problem files loops_X.rs
+    functions contains up to 20 problem files functions_X.rs
+    tuples_and_arrays contains up to 20 problem files tuples_and_arrays_X.rs
+    strings_and_slices contains up to 20 problem files strings_and_slices_X.rs
+    collections contains up to 20 problem files collections_X.rs
+  apprentice same subfolders, some new topics if needed, with more advanced problems
+  neophyte same structure, some new topics if needed, with more advanced problems
+  adept same structure, some new topics if needed, with more advanced problems
+
+Problem File Format
+Each problem file is named topic_X.rs where topic is lowercase and X is a placeholder. The file starts with comments describing Type the topic Difficulty the level Lesson explaining the concept Instructions numbered steps for the task and Hints guiding toward the correct Rust syntax or approach without revealing the solution. The body contains a stub fn main with TODO markers where the learner writes code. No solutions are included in problem files.
+
+Prompt and Generation Rules
+Work on one exercise at a time and wait for the next prompt before creating a new file. Each new exercise builds on prior knowledge and increases difficulty slightly. Maintain consistent naming and directory conventions. Offer helpful hints but do not give away the answer. After completing all novice topics, advance to the next difficulty tier apprentice with the same structure and additional topics as needed.
+
+Novice Topic Categories
+1 Variables
+2 Arithmetic integer and float operations
+3 Conditionals if else
+4 Loops for and while
+5 Functions definition parameters and return values
+6 Tuples and Arrays access and destructuring
+7 Strings and Slices basic manipulation and formatting
+8 Collections Vec creation indexing and iteration
+
+Future Topics
+In higher difficulty levels we will introduce ownership borrowing error handling structs enums modules and more advanced Rust patterns. Problem files will remain prompts only and solutions will reside in a parallel solutions directory to encourage focused practice.
+
+Remember that problem files only contain the prompt lesson instructions and hints. Learners must write code without looking at solutions.
