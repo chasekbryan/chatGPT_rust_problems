@@ -1,38 +1,23 @@
 // conditionals_1.rs
 // Type: Conditionals
-// Difficulty: Novice
+// Difficulty: Novice (Level 1)
 //
 // Lesson:
-// Rust uses `if` and `else` for branching. Conditions must be boolean expressions.
-// You can combine `%` (remainder) with `== 0` to test evenness.
-// This exercise will practice writing simple `if`/`else` blocks.
+// Conditional statements in Rust allow your code to take different paths based on whether a condition evaluates to true or false.
+// The basic structure is `if`, possibly followed by an `else` for alternative cases.
 //
 // Instructions:
-// 1. Declare an integer variable `n` initialized to any value (positive, negative, or zero).
-// 2. Use an `if`/`else` to check if `n` is positive (`n > 0`) or not, and print:
-//      “{n} is positive” or “{n} is zero or negative”.
-// 3. Use another `if`/`else` to check if `n` is even (`n % 2 == 0`) or odd, and print:
-//      “{n} is even” or “{n} is odd”.
+// 1. Define a variable `temperature` with an integer value.
+// 2. Write an `if` statement that prints "It's hot!" if the temperature is greater than 30.
+// 3. Include an `else` clause that prints "It's cool." otherwise.
 //
 // Hints:
-// - Compare with `>` and `==`.
-// - Modulo operator: `n % 2`.
-// - Print with `println!("... {}", n);`
+// - Use `let` to declare a variable and assign an integer value.
+// - Rust conditionals don't use parentheses around the condition.
+// - Use `{}` to enclose the code executed when a condition is true or false.
+
 fn main() {
-    // TODO: 1. Declare an integer `n`, e.g.:
-    // let n = -3;
+    // TODO: Define variable `temperature` with an integer value.
 
-    // TODO: 2. Check positivity:
-    // if n > 0 {
-    //     println!("{} is positive", n);
-    // } else {
-    //     println!("{} is zero or negative", n);
-    // }
-
-    // TODO: 3. Check even/odd:
-    // if n % 2 == 0 {
-    //     println!("{} is even", n);
-    // } else {
-    //     println!("{} is odd", n);
-    // }
+    // TODO: Write an `if-else` statement to check the temperature.
 }
