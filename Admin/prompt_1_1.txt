@@ -1,6 +1,6 @@
 okay so we have a directory called chatGPT_rust_problems. we are going to work
 on these one at a time and the end result will be a mass of problems leveled
-from novice, to neophyte to adept etcetera using this name scheme. each problem
+from novice, to apprentice to neophyte to adept etcetera using this name scheme. each problem
 will have a designed comment detailing what kind of problem this is and it's
 difficulty level. we will start from the very very basics to learn rust with
 most of the problems being written out in the rust code itself. we will only do
@@ -9,5 +9,5 @@ difficulty from the last one when i tell you to. just one at a time. the
 problems should be named for the concept with a short commented lesson on the
 problem first so that it can be solved with the knowledge gained thus far. the
 problems will be named their type and then the problem number in this format
-(TYPE..1.rs) okay lets go. first problem
+(TYPE_1.rs) okay lets go. next problem
 
