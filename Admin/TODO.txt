@@ -1,0 +1,6 @@
+Finish problem sets in Problems/Novice
+Novice - - DONE {
+    Loops = DONE
+    Variables = DONE
+    Arithmetic = DONE
+}
