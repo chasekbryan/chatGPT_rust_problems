@@ -1,22 +1,24 @@
 // variables_2.rs
 // Type: Variables
-// Difficulty: Novice
+// Difficulty: Novice (Level 1)
 //
 // Lesson:
-// In Rust, you can create new variables by using `let` and you can 
-// shadow existing variables by re-declaring them with `let`. 
-// Shadowing allows you to re-use the same variable name but change 
-// its type or value safely.
-// 
-// In this exercise, practice basic shadowing and updating variables.
+// To change the value of a variable in Rust, you must declare it as mutable using the `mut` keyword.
+//
+// Instructions:
+// 1. Create a mutable variable called `y` and set it to 10.
+// 2. Change the value of `y` to 15.
+// 3. Print the updated value of `y`.
+//
+// Hints:
+// - Use `let mut y = 10;` to create a mutable variable.
+// - Reassign a new value using `y = 15;`.
+// - Print the final value using `println!`.
 
 fn main() {
-    let x = 5;
+    // TODO: Create a mutable variable y with the value 10
     
-    // TODO: Shadow `x` here by adding 1 to its value.
-    let x = x + 1;
-
-    // TODO: Shadow `x` again by multiplying it by 2.
-
-    println!("The final value of x is: {x}");
+    // TODO: Change y to 15
+    
+    // TODO: Print the updated value of y
 }
